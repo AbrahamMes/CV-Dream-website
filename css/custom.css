@@ -1,0 +1,60 @@
+title {
+	font-family:		Impact, Charcoal, sans-serif;
+	font-weight:		bold;
+}
+
+#container{
+	border:				1px solid black;
+	outline-color:		red;
+	outline-style:		groove;
+	margin-left:		15px;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width:				70%;
+    margin:				auto;
+}
+
+#logo{
+    margin:				0 0 10px 10px;
+	height:				200px;
+	width:				auto;
+	display: 			block;
+    margin-left:		auto;
+    margin-right:		auto;
+}
+
+.center-float{
+	margin-left:		auto;
+	margin-right:		auto;
+	position:			absolute;
+	top:				123px;
+}
+
+.overlay { 
+   position:			relative; 
+   width:				100%;
+}
+
+.overlay-text { 
+   position:			absolute; 
+   top:					200px; 
+   left:				0; 
+   width:				100%;
+}
+
+#banner{
+	margin:				0px;
+    position: absolute;
+    z-index: 5;
+    color: white;
+}
+#banner > h2 {
+    position: relative;
+    top: 30px;
+	left: -10px;
+    width: 150px;
+	height: 30px;
+    background: #942911;
+}
