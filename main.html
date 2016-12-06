@@ -22,7 +22,7 @@
 	}
     $(document).ready(function() {
         $("#contactBut").click(function(){
-            $("#contact").effect( "highlight", {color:"#ffff1a"}, 3000 );
+            $("div.contact").effect( "highlight", {color:"#ffff1a"}, 3000 );
         });
 	});
 </script>
@@ -49,7 +49,7 @@
 			</ul>
 			<h2 class="nav navbar-nav navbar-default text-center col-md-4" id="nav-title">CV DREAM</h2>
 			<ul class="nav navbar-nav col-md-4">
-				<li class="pull-right"><a id="contactBut" onclick="scrollC()" href="#">Contact</a></li>
+				<li class="pull-right"><a id="contactBut" href="#"  onclick="scrollC()">Contact</a></li>
 			</ul>
 		</div>
 	</div>
@@ -60,7 +60,7 @@
 
 <div><!-- CAROUSEL ONLY -->
 	<div class="container-fluid banner">
-		<div class="carousel">
+		<div id="car-contain" class="carousel">
 			<div id="myCarousel" class="carousel slide" data-ride="carousel">
 				<!-- Indicators -->
 				<ol class="carousel-indicators">
@@ -86,11 +86,11 @@
 					</div>
 				</div>
 			<!-- Left and right controls -->
-				<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+				<a id="arrow" class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
 					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
 					<span class="sr-only">Previous</span>
 				</a>
-				<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+				<a id="arrow" class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
 					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 					<span class="sr-only">Next</span>
 				</a>
@@ -116,7 +116,7 @@
 	<div class="row">
 		<div class="text-center col-md-6 col-md-offset-3" id="contact">
 			<h4>Contact Us</h4>
-			<p>Have an concern or need to contact us?<a href="mailto:info@example.com?subject=subject&cc=cc@example.com">	Email Us!</a></p>
+			<p>Have an concern or need to contact us?<a href="mailto:cvhsdream@gmail.com?subject=">	Email Us!</a></p>
 			<p>Copyright &copy; 2016 &middot; All Rights Reserved &middot; CV DREAM</p>
 		</div>
 	</div>
